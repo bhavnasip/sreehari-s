@@ -1,0 +1,7 @@
+o=float(input("enter the original cost"))
+tp=float(input("enter net price"))
+gst=tp-o
+
+gstper=(gst*100)/o
+print("gst rate = ",gstper,"%")
+print("gst amount =",gst,"rs.")

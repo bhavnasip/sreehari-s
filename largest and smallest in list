@@ -1,0 +1,18 @@
+minpos=0
+l=[]
+n=int(input("number of elements"))
+for i in range(0,n):
+    ele=input("enter the values")
+    l.append(ele)
+max=min=l[0]
+for i in range(0,n):
+    if min>l[i]:
+        min=l[i]
+        minpos=i
+    elif max<l[i]:
+        max=l[i]
+        maxpos=i
+    
+print("smallest element in list:",min,"position:",minpos)
+
+print("largest element in list:",max,"position:",maxpos)

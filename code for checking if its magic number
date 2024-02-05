@@ -1,0 +1,14 @@
+sum1=0
+e=int(input("enter the number"))
+u=e
+while u>0:
+    sum1=sum1+(u%10)
+    u=u//10
+    if sum1>9:
+        u=sum1
+        
+        sum1=0
+if sum1==1:
+    print(e,"is a magic number ")
+else:
+    print(e,"is not a magic number ")

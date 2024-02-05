@@ -1,0 +1,5 @@
+s=0
+for i in range(0,101):
+    p=i**2
+    s=s+p
+print("sum of square of first hundred natural numbers:")
